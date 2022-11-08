@@ -16,10 +16,10 @@ Database Connection
 --------------------------------------------
 --------------------------------------------*/
 const conn = mysql.createConnection({
-  host: '217.21.85.133',
-  user: 'u826495134_developer', /* MySQL User */
-  password: '7kD#T9@/uK+', /* MySQL Password */
-  database: 'u826495134_icmdbkkr' /* MySQL Database */
+  host: 'localhost'
+  user: 'root', /* MySQL User */
+  password: '', /* MySQL Password */
+  database: 'nodedb' /* MySQL Database */
 });
    
 /*------------------------------------------
